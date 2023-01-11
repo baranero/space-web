@@ -186,3 +186,33 @@ a {
         scale: 0.8;
     }
   }
+
+  @media only screen and (max-width: 400px) {
+    .homepage-body {
+        scale: 0.7;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .homepage-place {
+        width: 120%;
+        text-align: center;
+    }
+
+    .headbar {
+        margin: 0 20px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .heading-text {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.1rem;
+    }
+  }
