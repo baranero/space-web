@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-image: url("/images/destination-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bellefair', serif;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+.destination-img {
+    margin: 100px 200px 0;
+}
+
+.navbar-list-destination {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.15rem;
+}
+
+.navbar-list-item-moon {
+    padding: 0 0 5px 0;
+
+}
+
+.first-link:nth-child(2) {
+    border-width: 0 0 3px 0;
+    border-color: #FFFFFF;
+    border-style: solid;
+    height: 93px;
+}
+
+.first-link:nth-child(1):hover,
+.first-link:nth-child(3):hover,
+.first-link:nth-child(4):hover {
+    border-width: 0 0 3px 0;
+    border-color: rgba(125, 125, 125, 0.7);
+    border-style: solid;
+}
+
+.first-link:nth-child(1):hover li,
+.first-link:nth-child(3):hover li,
+.first-link:nth-child(4):hover li {
+    transform: translateY(2px);
+}
+
+.second-link:nth-child(1) {
+    border-width: 0 0 3px 0;
+    border-color: #FFFFFF;
+    border-style: solid;
+}
+
+.second-link:nth-child(2):hover,
+.second-link:nth-child(3):hover,
+.second-link:nth-child(4):hover {
+    border-width: 0 0 3px 0;
+    border-color: rgba(125, 125, 125, 0.7);
+    border-style: solid;
+} 
+
+.destination-place {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 170px;
+    justify-content: space-between;
+}
+
+.destination-description {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-top: 50px;
+}
+
+.planet-image {
+    width: 450px;
+    margin-top: 100px;
+}
+
+.heading-text {
+    margin: 15px 0 0;
+    letter-spacing: 2px;
+}
+
+.line {
+    border: 1px solid #979797;
+    border-width: 1px 0 0 0;
+    width: 90%;
+    opacity: 0.5;
+    z-index: 1;
+    margin: 54px 0 28px;
+}
+
+.distance-time-description {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.distance-cont, .time-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.distance-cont {
+    margin-right: 80px;
+}
+
+.title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+}
+
+.value {
+    font-size: 28px;
+    margin-top: 12px;
+}

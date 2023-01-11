@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-image: url("/images/crew-background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bellefair', serif;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+.crew-img {
+    margin: 100px 250px 0;
+    
+}
+
+.crew-cont {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.crew-desc {
+    width: 100%;
+    margin-top: 150px;
+}
+
+h4 {
+    margin-bottom: 15px;
+}
+
+.crew-text {
+    width: 30%;
+    font-size: 18px;
+    letter-spacing: 0.07rem;
+}
+
+.crew-pic{
+    position: absolute;
+    right: 250px;
+    bottom: 0px;
+    
+}
+
+.menu {
+    position: absolute;
+    bottom: 100px;
+}
+
+.dot-menu, .dot-menu-active {
+    margin-right: 24px;
+}
+
+.dot-menu {
+    opacity: 0.25;
+}
+
+.dot-menu:hover {
+    opacity: 0.5;
+}
+
+.first-link:nth-child(3) {
+    border-width: 0 0 3px 0;
+    border-color: #FFFFFF;
+    border-style: solid;
+    height: 93px;
+}
+

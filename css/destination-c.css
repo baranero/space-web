@@ -1,0 +1,14 @@
+.second-link:nth-child(3) {
+    border-width: 0 0 3px 0;
+    border-color: #FFFFFF;
+    border-style: solid;
+
+}
+
+.second-link:nth-child(1) {
+    border-width: 0;
+}
+
+.second-link:nth-child(2) {
+    border-width: 0;
+}
