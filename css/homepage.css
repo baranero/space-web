@@ -144,7 +144,7 @@ a {
 
 @media only screen and (max-width: 768px) {
     body {
-        background-image: url("/images/background-tablet.jpg");
+        background-image: url("..//images/background-tablet.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
