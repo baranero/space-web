@@ -229,7 +229,7 @@ body {
         width: 90%;
         opacity: 0.5;
         z-index: 1;
-        margin: 54px 0 28px;
+        margin: 54px auto 28px;
     }
     
     .distance-time-description {
@@ -241,7 +241,7 @@ body {
     .distance-cont, .time-cont {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         padding: 20px;
     }
     
