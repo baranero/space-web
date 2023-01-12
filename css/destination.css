@@ -44,12 +44,13 @@ body {
     border-width: 0 0 3px 0;
     border-color: rgba(125, 125, 125, 0.7);
     border-style: solid;
+    transform: translateY(-2px);
 }
 
 .first-link:nth-child(1):hover li,
 .first-link:nth-child(3):hover li,
 .first-link:nth-child(4):hover li {
-    transform: translateY(2px);
+    transform: translateY(3.5px);
 }
 
 .second-link:nth-child(1) {

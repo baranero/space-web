@@ -65,3 +65,17 @@ h4 {
     height: 93px;
 }
 
+.first-link:nth-child(1):hover,
+.first-link:nth-child(2):hover,
+.first-link:nth-child(4):hover {
+    border-width: 0 0 3px 0;
+    border-color: rgba(125, 125, 125, 0.7);
+    border-style: solid;
+    transform: translateY(-2px);
+}
+
+.first-link:nth-child(1):hover li,
+.first-link:nth-child(2):hover li,
+.first-link:nth-child(4):hover li {
+    transform: translateY(3.5px);
+}

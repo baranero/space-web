@@ -1,6 +1,7 @@
 /* the repetitive part */
-* {
 
+#headbar-hamburger {
+    display: none;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
     background-attachment: fixed;
     font-family: 'Bellefair', serif;
     color: #FFFFFF;
+    overflow: hidden;
 }
 
 .headbar {
@@ -108,7 +110,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 13%;
+    padding: 0;
 }
 
 .navbar-list-description {
@@ -126,7 +128,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 10% 8% 0;
+    margin: 5% 8% 0;
 }
 
 .homepage-place {
@@ -137,17 +139,22 @@ a {
 
 .homepage-explore {
     position: relative;
+    bottom: 250px;
+    left: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
 
 .explore-img {
-    padding: 60px;
     border-radius: 100%;
 
 }
 
 .explore-img:hover {
-    padding: 60px;
-    background-color: rgba(94, 94, 94, 0.5);
+    box-shadow: 0 0 0 60px rgba(94, 94, 94, 0.5);
+
     transition: 0.15s;
 }
 
@@ -202,6 +209,61 @@ a {
   }
 
   @media only screen and (max-width: 500px) {
+
+    #headbar-hamburger {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 20%;
+        padding: 0;
+        margin: 100px 50px;
+        text-align: left;
+        width: 100px;
+    }
+
+    .navbar {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+
+    .navbar-list-item {
+        padding: 0px;
+        margin: 0px;
+        height: 0;
+        border: none;
+        text-align: left;
+    }
+
+    .navbar-list-numbers {
+        display: block;
+        margin-right: 15px;
+    }
+
+
+    .navbar-list-description {
+        margin: 0;
+        
+    }
+
+
+    .headbar {
+        display: none;
+    }
+
+    .space-logo {
+        margin-top: 15px;
+        margin-left: 24px;
+        margin-bottom: 20px;
+    }
+
     .homepage-body {
         scale: 0.7;
         display: flex;
@@ -215,6 +277,15 @@ a {
     .homepage-place {
         width: 120%;
         text-align: center;
+    }
+
+    .homepage-explore {
+        position: relative;
+        bottom: 160px;
+        left: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .headbar {
@@ -232,7 +303,87 @@ a {
     }
 
     .hamburger-menu {
-        display: block;
-        margin-right: 12px;
+        position: relative;
+        display: inline-block;
+        right: 24px;
+        top: 30px
     }
+
+    #headbar-hamburger {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .main {
+        margin: 0 auto;
+        display: block;
+        height: 100%;
+        margin-top: 60px;
+    }
+    .mainInner{
+        display: table;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .mainInner div{
+        display:table-cell;
+        vertical-align: middle;
+        font-size: 3em;
+        font-weight: bold;
+        letter-spacing: 1.25px;
+    }
+
+    #sidebarMenu {
+        height: 100%;
+        position: fixed;
+        right: 0;
+        width: 300px;
+        transform: translateX(300px);
+        transition: transform 250ms ease-in-out;
+        background: rgba(128, 128, 128, 0.519);
+        backdrop-filter: blur(40px);
+        z-index: 10;
+    
+    }
+   
+    input[type="checkbox"]:checked ~ #sidebarMenu {
+        transform: translateX(0);
+    }
+    
+    input[type=checkbox] {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        display: none;
+    }
+
+    .close {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20px;
+        top: 33px;
+
+    }
+
+
+
+    .close:after {
+        content: '';
+        height: 30px;
+        border-left: 2px solid #fff;
+        position: absolute;
+        transform: rotate(45deg);
+
+    }
+    
+    .close:before {
+        content: '';
+        height: 30px;
+        border-left: 2px solid #fff;
+        position: absolute;
+        transform: rotate(-45deg);
+    }
+
   }
