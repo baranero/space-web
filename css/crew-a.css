@@ -79,3 +79,90 @@ h4 {
 .first-link:nth-child(4):hover li {
     transform: translateY(3.5px);
 }
+
+.line {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+
+    body {
+        overflow-y: visible;
+    }
+
+    .first-link:nth-child(3) {
+        border-width: 0 0 0px 0;
+        border-color: #FFFFFF;
+        border-style: solid;
+        height: 0px;
+    }
+    
+    .first-link:nth-child(1):hover,
+    .first-link:nth-child(2):hover,
+    .first-link:nth-child(4):hover {
+        border-width: 0 0 0px 0;
+        border-color: rgba(125, 125, 125, 0.7);
+        border-style: solid;
+        transform: translateY(-2px);
+    }
+    
+    .first-link:nth-child(1):hover li,
+    .first-link:nth-child(2):hover li,
+    .first-link:nth-child(4):hover li {
+        transform: translateY(3.5px);
+    }
+
+    .crew-pic{
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        height: 300px;
+    }
+
+    .crew-img {
+        text-align: center;
+        margin: 50px auto 0;
+        width: 100%;
+    }
+
+    .line {
+        display: block;
+        border: 1px solid #979797;
+        border-width: 1px 0 0 0;
+        width: 90%;
+        opacity: 0.5;
+        z-index: 1;
+        transform: translateY(-5px);
+        margin: 0 auto;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+        color: #979797;;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .menu {
+        position: relative;
+        bottom: 0;
+        margin-top: 30px;
+    }
+
+    .crew-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .crew-text {
+        margin: 30px auto 50px;
+        width: 80%;
+        font-size: 18px;
+        letter-spacing: 0.07rem;
+    }
+
+}

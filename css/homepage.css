@@ -154,6 +154,7 @@ a {
         background-image: url("..//images/background-tablet.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+        overflow-y: visible;
     }
 
     .navbar-list-numbers {
@@ -188,13 +189,26 @@ a {
         align-items: center;
     }
 
-    .homepage-place {
-        text-align: center;
-    }
 
+    .homepage-explore {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
     .explore-img {
-        padding: 10px;
-        scale: 0.8;
+        border-radius: 100%;
+    }
+    
+    .explore-img:hover {
+        box-shadow: 0 0 0 60px rgba(94, 94, 94, 0.5);
+        transition: 0.15s;
     }
 
   }
@@ -328,5 +342,8 @@ a {
         position: absolute;
         transform: rotate(-45deg);
     }
+
+
+    
 
   }

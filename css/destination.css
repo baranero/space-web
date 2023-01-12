@@ -144,20 +144,7 @@ body {
     .navbar-list-destination {
         margin: 0 auto;
         padding: 0;
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
         width: 100%;
-        font-family: 'Barlow Condensed', sans-serif;
-        font-size: 1.2rem;
-        letter-spacing: 0.15rem;
-    }
-    
-    .navbar-list-item-moon {
-        padding: 0 0 5px 0;
-    
     }
     
     .first-link:nth-child(2) {
@@ -183,18 +170,10 @@ body {
     }
     
     .second-link:nth-child(1) {
-        border-width: 0 0 0px 0;
+        border-width: 0 0 3px 0;
         border-color: #FFFFFF;
         border-style: solid;
     }
-    
-    .second-link:nth-child(2):hover,
-    .second-link:nth-child(3):hover,
-    .second-link:nth-child(4):hover {
-        border-width: 0 0 0px 0;
-        border-color: rgba(125, 125, 125, 0.7);
-        border-style: solid;
-    } 
     
     .destination-place {
         display: flex;
@@ -218,17 +197,10 @@ body {
     }
     
     .heading-text {
-        margin: 0;
-        letter-spacing: 2px;
         text-align: center;
     }
     
     .line {
-        border: 1px solid #979797;
-        border-width: 1px 0 0 0;
-        width: 90%;
-        opacity: 0.5;
-        z-index: 1;
         margin: 54px auto 28px;
     }
     
@@ -247,13 +219,10 @@ body {
     
     
     .title {
-        font-family: 'Barlow Condensed', sans-serif;
-        font-size: 14px;
-        letter-spacing: 2.5px;
+        font-size: 20px;
     }
     
     .value {
-        font-size: 28px;
-        margin-top: 12px;
+        font-size: 36px;
     }
 }
