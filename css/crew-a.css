@@ -9,7 +9,7 @@ body {
 }
 
 .crew-img {
-    margin: 100px 250px 0;
+    margin: 50px 250px 0;
     
 }
 
@@ -21,7 +21,7 @@ body {
 
 .crew-desc {
     width: 100%;
-    margin-top: 150px;
+    margin-top: 30px;
 }
 
 h4 {
@@ -38,12 +38,12 @@ h4 {
     position: absolute;
     right: 250px;
     bottom: 0px;
-    
+    height: 70%;
 }
 
 .menu {
     position: absolute;
-    bottom: 100px;
+    bottom: 60px;
 }
 
 .dot-menu, .dot-menu-active {

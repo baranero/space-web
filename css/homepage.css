@@ -1,7 +1,9 @@
 /* the repetitive part */
+* {
+
+}
 
 body {
-
     margin: 0;
     background-image: url("..//images/homepage-background.jpg");
     background-size: cover;
@@ -124,7 +126,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 380px 130px 0;
+    margin: 10% 8% 0;
 }
 
 .homepage-place {
@@ -161,7 +163,11 @@ a {
     }
 
     .navbar {
-        width: 330px;
+        width: 60%;
+    }
+
+    .navbar-list-description {
+        margin: 0 auto;
     }
 
     .navbar-list {
@@ -170,7 +176,7 @@ a {
     }
 
     .navbar-list-item {
-        padding: 0 5px;
+        padding: 0 15px;
     }
 
     .navbar-line {
@@ -192,9 +198,10 @@ a {
         padding: 10px;
         scale: 0.8;
     }
+
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
     .homepage-body {
         scale: 0.7;
         display: flex;
