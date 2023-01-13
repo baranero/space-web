@@ -70,7 +70,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    height: 70vh;
 }
 
 .menu {
@@ -90,6 +90,7 @@ h4 {
     width: 35%;
     margin-top: 150px;
     margin-left: 10px;
+    margin-right: 5%;
 }
 
 .crew-text {
@@ -101,11 +102,15 @@ h4 {
 }
 
 .crew-pic {
-    height: 650px;
-    margin-left: 10%;
+    height: 100%;
+
 }
 
 .crew-pic-mobile {
+    display: none;
+}
+
+.crew-pic-mobile-3 {
     display: none;
 }
 
@@ -195,5 +200,9 @@ h4 {
     h5 {
         text-align: center;
         color: #575757;
+    }
+
+    .menu {
+        width: 60%;
     }
 }

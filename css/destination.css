@@ -9,7 +9,11 @@ body {
 }
 
 .destination-img {
-    margin: 30px 10% 0;
+    margin: 30px 0;
+}
+
+h5 {
+    margin-left: 50px;
 }
 
 .navbar-list-destination {
@@ -69,9 +73,8 @@ body {
 
 .destination-place {
     display: flex;
-    margin-left: 60px;
-    margin-right: 10px;
-    justify-content: space-between;
+    justify-content: center;
+
 }
 
 .destination-description {
@@ -79,11 +82,13 @@ body {
     flex-direction: column;
     width: 450px;
     margin-top: 0px;
+    padding: 0 50px;
 }
 
 .planet-image {
     height: 400px;
     margin-top: 50px;
+    padding: 0 50px;
 }
 
 .heading-text {
@@ -147,6 +152,8 @@ body {
     .destination-description {
         text-align: center;
         width: 100%;
+        padding: 0;
+
     }
 
     .navbar-list-destination {
