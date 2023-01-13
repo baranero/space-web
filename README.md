@@ -14,7 +14,7 @@ Unpack and start any .html file in browser.
 
 ### Clone repository
 
-Open code editor and input in terminal:\
+Open code editor and input in terminal:
 #### $ git clone https://github.com/baranero/space-web.git
 
 ## See on GitHub Pages
