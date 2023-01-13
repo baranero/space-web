@@ -20,3 +20,7 @@ Open code editor and input in terminal:
 ## See on GitHub Pages
 
 https://baranero.github.io/space-web/
+
+## Base design
+
+https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3
