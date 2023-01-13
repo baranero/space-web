@@ -109,8 +109,73 @@ h4 {
     display: none;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 820px) {
 
+
+
+    .crew-cont {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .crew-img {
+        margin: 50px 0 0;
+    }
+
+    .crew-pic {
+        display: none;
+    }
+
+    .crew-desc {
+        margin: 20px auto 50px;
+        text-align: center;
+        width: 70%;
+    }
+    
+    .crew-pic-mobile {
+        display: block;
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0% 85%;
+    }
+
+    .crew-pic-mobile-3 {
+        display: block;
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0% 40%;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    span {
+        color: #FFFFFF;
+    }
+
+    .menu {
+        scale: 0.7;
+        flex-direction: row;
+        width: 40%;
+        justify-content: space-between;
+        height: fit-content;
+        margin: 30px auto 0;
+    }
+
+    h5 {
+        margin-left: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
     .first-link:nth-child(4) {
         border-width: 0 0 0px 0;
         border-color: #FFFFFF;
@@ -127,57 +192,8 @@ h4 {
         height: 0px;
     }
 
-    .crew-cont {
-        flex-direction: column;
-        margin: 0;
-    }
-
-    .crew-img {
-        margin: 0;
-    }
-
-    .crew-pic {
-        display: none;
-    }
-
-    .crew-desc {
-        margin: 20px auto 0;
-        text-align: center;
-        width: 90%;
-    }
-    
-    .crew-pic-mobile {
-        display: block;
-        height: 200px;
-        width: 100%;
-        object-fit: cover;
-        
-    }
-
     h5 {
         text-align: center;
         color: #575757;
     }
-
-    h3 {
-        font-size: 24px;
-    }
-
-    h4 {
-        font-size: 14px;
-    }
-
-    span {
-        color: #FFFFFF;
-    }
-
-    .menu {
-        scale: 0.5;
-        flex-direction: row;
-        width: 60%;
-        justify-content: space-between;
-        height: fit-content;
-        margin: 30px auto 0;
-    }
-
 }

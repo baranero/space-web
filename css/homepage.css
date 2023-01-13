@@ -149,7 +149,7 @@ a {
     transition: 0.15s;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
     body {
         background-image: url("..//images/background-tablet.jpg");
         background-size: cover;
@@ -175,7 +175,7 @@ a {
     }
 
     .navbar-list-item {
-        padding: 0 15px;
+        padding: 0 0px;
     }
 
     .navbar-line {
@@ -187,6 +187,10 @@ a {
         flex-direction: column;
         margin: 60px 0 0 0;
         align-items: center;
+    }
+
+    .homepage-place {
+        text-align: center;
     }
 
 

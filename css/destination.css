@@ -125,6 +125,50 @@ body {
     margin-top: 12px;
 }
 
+@media only screen and (max-width: 820px) {
+
+    .navbar-list-numbers {
+        display: none;
+    }
+
+    .destination-img {
+        margin: 30px 50px 0; 
+    }
+
+    .destination-place {
+        flex-direction: column;
+    }
+
+    .planet-image {
+        object-fit: contain;
+        height: 300px;
+    }
+
+    .destination-description {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar-list-destination {
+        width: 300px;
+        margin: 30px auto 0;
+    }
+
+    h2 {
+        margin-top: 50px;
+    }
+
+    .line {
+        margin: 50px auto;
+        width: 100%;
+    }
+
+    .distance-time-description {
+        margin: 0 auto;
+    }
+
+}
+
 @media only screen and (max-width: 500px) {
 
     body {
