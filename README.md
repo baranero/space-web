@@ -12,6 +12,8 @@ Never too much practice.
 ### Download ZIP
 Unpack and start any .html file in browser.
 
+### or
+
 ### Clone repository
 
 Open code editor and input in terminal:
